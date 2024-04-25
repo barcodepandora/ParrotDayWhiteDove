@@ -1,6 +1,6 @@
 //
-//  ParrotDayWhiteDoveTests.swift
-//  ParrotDayWhiteDoveTests
+//  ImageInParalellViewTest.swift
+//  ParrotDayWhiteDove
 //
 //  Created by Juan Manuel Moreno on 25/04/24.
 //
@@ -9,7 +9,7 @@ import XCTest
 @testable import ParrotDayWhiteDove
 import SwiftUI
 
-final class ParrotDayWhiteDoveTests: XCTestCase {
+final class ImageInParalellViewTest: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -32,5 +32,12 @@ final class ParrotDayWhiteDoveTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+
+    func testImageInParalellView() {
+        
+        let imageInParalellView = ImageInParalellView(sha: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSHhTqWx3-rilDFcQV2-JBLZtB3xh7O0K5WW4eCa0obJZ9BNafJ")
+        let viewControllerForTest = UIHostingController(rootView: imageInParalellView)
+        XCTAssertNotNil(viewControllerForTest)
     }
 }

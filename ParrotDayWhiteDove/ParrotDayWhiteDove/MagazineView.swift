@@ -12,8 +12,11 @@ struct MagazineView: View {
         VStack {
             List(anArrayOfTori, id: \.self) { tori in
                 HStack {
-                    ImageInParalellView()
-                    Text(tori.namaeSpanish!)
+                    ImageInParalellView(sha: tori.sha!)
+                    List {
+                        Text(tori.namaeSpanish!)
+                        Text(tori.namaeTurkish!)
+                    }
                 }
             }
         }

@@ -16,6 +16,7 @@
 		561B06AE2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B06AD2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITestsLaunchTests.swift */; };
 		561B06BB2BDA95D600F9EF48 /* MagazineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B06BA2BDA95D600F9EF48 /* MagazineView.swift */; };
 		561B06BD2BDA963B00F9EF48 /* ImageInParalellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B06BC2BDA963B00F9EF48 /* ImageInParalellView.swift */; };
+		56D077682BDAB5DC009AB881 /* ImageInParalellViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D077662BDAB5DC009AB881 /* ImageInParalellViewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		561B06AD2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayWhiteDoveUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		561B06BA2BDA95D600F9EF48 /* MagazineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagazineView.swift; sourceTree = "<group>"; };
 		561B06BC2BDA963B00F9EF48 /* ImageInParalellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInParalellView.swift; sourceTree = "<group>"; };
+		56D077662BDAB5DC009AB881 /* ImageInParalellViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInParalellViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				561B06A12BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests.swift */,
+				56D077662BDAB5DC009AB881 /* ImageInParalellViewTest.swift */,
 			);
 			path = ParrotDayWhiteDoveTests;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D077682BDAB5DC009AB881 /* ImageInParalellViewTest.swift in Sources */,
 				561B06A22BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
