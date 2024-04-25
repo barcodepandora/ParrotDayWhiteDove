@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561B06912BDA8C7D00F9EF48 /* ParrotDayWhiteDoveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B06902BDA8C7D00F9EF48 /* ParrotDayWhiteDoveApp.swift */; };
+		561B06932BDA8C7D00F9EF48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B06922BDA8C7D00F9EF48 /* ContentView.swift */; };
+		561B06952BDA8C8200F9EF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561B06942BDA8C8200F9EF48 /* Assets.xcassets */; };
+		561B06982BDA8C8200F9EF48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561B06972BDA8C8200F9EF48 /* Preview Assets.xcassets */; };
+		561B06A22BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B06A12BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests.swift */; };
+		561B06AC2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B06AB2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITests.swift */; };
+		561B06AE2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B06AD2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITestsLaunchTests.swift */; };
+		561B06BB2BDA95D600F9EF48 /* MagazineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B06BA2BDA95D600F9EF48 /* MagazineView.swift */; };
+		561B06BD2BDA963B00F9EF48 /* ImageInParalellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561B06BC2BDA963B00F9EF48 /* ImageInParalellView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		561B069E2BDA8C8200F9EF48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561B06852BDA8C7D00F9EF48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561B068C2BDA8C7D00F9EF48;
+			remoteInfo = ParrotDayWhiteDove;
+		};
+		561B06A82BDA8C8200F9EF48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561B06852BDA8C7D00F9EF48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561B068C2BDA8C7D00F9EF48;
+			remoteInfo = ParrotDayWhiteDove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		561B068D2BDA8C7D00F9EF48 /* ParrotDayWhiteDove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParrotDayWhiteDove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		561B06902BDA8C7D00F9EF48 /* ParrotDayWhiteDoveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayWhiteDoveApp.swift; sourceTree = "<group>"; };
+		561B06922BDA8C7D00F9EF48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		561B06942BDA8C8200F9EF48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561B06972BDA8C8200F9EF48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		561B069D2BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotDayWhiteDoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561B06A12BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayWhiteDoveTests.swift; sourceTree = "<group>"; };
+		561B06A72BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParrotDayWhiteDoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561B06AB2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayWhiteDoveUITests.swift; sourceTree = "<group>"; };
+		561B06AD2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrotDayWhiteDoveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		561B06BA2BDA95D600F9EF48 /* MagazineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagazineView.swift; sourceTree = "<group>"; };
+		561B06BC2BDA963B00F9EF48 /* ImageInParalellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageInParalellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561B068A2BDA8C7D00F9EF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561B069A2BDA8C8200F9EF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561B06A42BDA8C8200F9EF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561B06842BDA8C7D00F9EF48 = {
+			isa = PBXGroup;
+			children = (
+				561B068F2BDA8C7D00F9EF48 /* ParrotDayWhiteDove */,
+				561B06A02BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests */,
+				561B06AA2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITests */,
+				561B068E2BDA8C7D00F9EF48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		561B068E2BDA8C7D00F9EF48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561B068D2BDA8C7D00F9EF48 /* ParrotDayWhiteDove.app */,
+				561B069D2BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests.xctest */,
+				561B06A72BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561B068F2BDA8C7D00F9EF48 /* ParrotDayWhiteDove */ = {
+			isa = PBXGroup;
+			children = (
+				561B06902BDA8C7D00F9EF48 /* ParrotDayWhiteDoveApp.swift */,
+				561B06922BDA8C7D00F9EF48 /* ContentView.swift */,
+				561B06BA2BDA95D600F9EF48 /* MagazineView.swift */,
+				561B06BC2BDA963B00F9EF48 /* ImageInParalellView.swift */,
+				561B06942BDA8C8200F9EF48 /* Assets.xcassets */,
+				561B06962BDA8C8200F9EF48 /* Preview Content */,
+			);
+			path = ParrotDayWhiteDove;
+			sourceTree = "<group>";
+		};
+		561B06962BDA8C8200F9EF48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				561B06972BDA8C8200F9EF48 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		561B06A02BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				561B06A12BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests.swift */,
+			);
+			path = ParrotDayWhiteDoveTests;
+			sourceTree = "<group>";
+		};
+		561B06AA2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				561B06AB2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITests.swift */,
+				561B06AD2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITestsLaunchTests.swift */,
+			);
+			path = ParrotDayWhiteDoveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561B068C2BDA8C7D00F9EF48 /* ParrotDayWhiteDove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561B06B12BDA8C8200F9EF48 /* Build configuration list for PBXNativeTarget "ParrotDayWhiteDove" */;
+			buildPhases = (
+				561B06892BDA8C7D00F9EF48 /* Sources */,
+				561B068A2BDA8C7D00F9EF48 /* Frameworks */,
+				561B068B2BDA8C7D00F9EF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParrotDayWhiteDove;
+			productName = ParrotDayWhiteDove;
+			productReference = 561B068D2BDA8C7D00F9EF48 /* ParrotDayWhiteDove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		561B069C2BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561B06B42BDA8C8200F9EF48 /* Build configuration list for PBXNativeTarget "ParrotDayWhiteDoveTests" */;
+			buildPhases = (
+				561B06992BDA8C8200F9EF48 /* Sources */,
+				561B069A2BDA8C8200F9EF48 /* Frameworks */,
+				561B069B2BDA8C8200F9EF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561B069F2BDA8C8200F9EF48 /* PBXTargetDependency */,
+			);
+			name = ParrotDayWhiteDoveTests;
+			productName = ParrotDayWhiteDoveTests;
+			productReference = 561B069D2BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		561B06A62BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561B06B72BDA8C8200F9EF48 /* Build configuration list for PBXNativeTarget "ParrotDayWhiteDoveUITests" */;
+			buildPhases = (
+				561B06A32BDA8C8200F9EF48 /* Sources */,
+				561B06A42BDA8C8200F9EF48 /* Frameworks */,
+				561B06A52BDA8C8200F9EF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561B06A92BDA8C8200F9EF48 /* PBXTargetDependency */,
+			);
+			name = ParrotDayWhiteDoveUITests;
+			productName = ParrotDayWhiteDoveUITests;
+			productReference = 561B06A72BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		561B06852BDA8C7D00F9EF48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					561B068C2BDA8C7D00F9EF48 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					561B069C2BDA8C8200F9EF48 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 561B068C2BDA8C7D00F9EF48;
+					};
+					561B06A62BDA8C8200F9EF48 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 561B068C2BDA8C7D00F9EF48;
+					};
+				};
+			};
+			buildConfigurationList = 561B06882BDA8C7D00F9EF48 /* Build configuration list for PBXProject "ParrotDayWhiteDove" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 561B06842BDA8C7D00F9EF48;
+			productRefGroup = 561B068E2BDA8C7D00F9EF48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561B068C2BDA8C7D00F9EF48 /* ParrotDayWhiteDove */,
+				561B069C2BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests */,
+				561B06A62BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561B068B2BDA8C7D00F9EF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561B06982BDA8C8200F9EF48 /* Preview Assets.xcassets in Resources */,
+				561B06952BDA8C8200F9EF48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561B069B2BDA8C8200F9EF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561B06A52BDA8C8200F9EF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561B06892BDA8C7D00F9EF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561B06BB2BDA95D600F9EF48 /* MagazineView.swift in Sources */,
+				561B06932BDA8C7D00F9EF48 /* ContentView.swift in Sources */,
+				561B06BD2BDA963B00F9EF48 /* ImageInParalellView.swift in Sources */,
+				561B06912BDA8C7D00F9EF48 /* ParrotDayWhiteDoveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561B06992BDA8C8200F9EF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561B06A22BDA8C8200F9EF48 /* ParrotDayWhiteDoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561B06A32BDA8C8200F9EF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561B06AC2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITests.swift in Sources */,
+				561B06AE2BDA8C8200F9EF48 /* ParrotDayWhiteDoveUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561B069F2BDA8C8200F9EF48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561B068C2BDA8C7D00F9EF48 /* ParrotDayWhiteDove */;
+			targetProxy = 561B069E2BDA8C8200F9EF48 /* PBXContainerItemProxy */;
+		};
+		561B06A92BDA8C8200F9EF48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561B068C2BDA8C7D00F9EF48 /* ParrotDayWhiteDove */;
+			targetProxy = 561B06A82BDA8C8200F9EF48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		561B06AF2BDA8C8200F9EF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		561B06B02BDA8C8200F9EF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561B06B22BDA8C8200F9EF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParrotDayWhiteDove/Preview Content\"";
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayWhiteDove.ParrotDayWhiteDove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		561B06B32BDA8C8200F9EF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParrotDayWhiteDove/Preview Content\"";
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayWhiteDove.ParrotDayWhiteDove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		561B06B52BDA8C8200F9EF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayWhiteDove.ParrotDayWhiteDoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParrotDayWhiteDove.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParrotDayWhiteDove";
+			};
+			name = Debug;
+		};
+		561B06B62BDA8C8200F9EF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayWhiteDove.ParrotDayWhiteDoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParrotDayWhiteDove.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParrotDayWhiteDove";
+			};
+			name = Release;
+		};
+		561B06B82BDA8C8200F9EF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayWhiteDove.ParrotDayWhiteDoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParrotDayWhiteDove;
+			};
+			name = Debug;
+		};
+		561B06B92BDA8C8200F9EF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6KDBC2B2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uzupis.ParrotDayWhiteDove.ParrotDayWhiteDoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParrotDayWhiteDove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561B06882BDA8C7D00F9EF48 /* Build configuration list for PBXProject "ParrotDayWhiteDove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561B06AF2BDA8C8200F9EF48 /* Debug */,
+				561B06B02BDA8C8200F9EF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561B06B12BDA8C8200F9EF48 /* Build configuration list for PBXNativeTarget "ParrotDayWhiteDove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561B06B22BDA8C8200F9EF48 /* Debug */,
+				561B06B32BDA8C8200F9EF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561B06B42BDA8C8200F9EF48 /* Build configuration list for PBXNativeTarget "ParrotDayWhiteDoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561B06B52BDA8C8200F9EF48 /* Debug */,
+				561B06B62BDA8C8200F9EF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561B06B72BDA8C8200F9EF48 /* Build configuration list for PBXNativeTarget "ParrotDayWhiteDoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561B06B82BDA8C8200F9EF48 /* Debug */,
+				561B06B92BDA8C8200F9EF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 561B06852BDA8C7D00F9EF48 /* Project object */;
+}
